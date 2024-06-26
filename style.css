@@ -1,0 +1,80 @@
+/* Solve the problem that when you hover over start then it becomes bigger and due to 
+this the size of box changes ,we want it to remain the same even when button becomes bigger.!Solved
+the number by which you increse padding,decrease the margin by the same amount| you can see the mistaken 
+one and the correct one in style 1 and style 2 respectively*/
+/* Now the new problem is why there is an unwanted space between display and controls */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: rgb(240 254 255);
+    border: 5px solid salmon;
+    border-radius: 55px;
+    /* height: 150px;
+    width: 350px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#display{
+    box-shadow: inset 0px 0px 3px 0px;
+    font: bold 3rem monospace;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.794);
+    border-radius: 120px;
+    padding: 5px;
+    margin: 15px;
+    text-shadow: 1.5px 1.5px 1.5px hsla(0, 0%, 0%, 0.701);
+}
+
+button{
+    /* margin: 10px 15px 10px 15px; */
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 6px;
+    transition: 0.25s ease-in-out 0ms;
+}
+
+#controls{
+    margin: 5px;
+}
+
+#Start{
+    background-color: rgb(10, 230, 25);
+    color: aliceblue;
+    font-weight: 600;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #9c7b88;
+}
+
+/* #Start:hover{
+    background-color:  rgb(77, 255, 89);
+    padding: 5.8px 15.8px;
+    margin: 4.2px 4.2px;
+    
+}
+
+#Start:active{
+    background-color:  rgb(9, 188, 21)
+} */
+
+
+#Stop{
+    background-color: rgb(247, 91, 7);
+    color: aliceblue;
+    font-weight: 600;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #9c7b88;
+}
+
+#Reset{
+    background-color: rgb(29, 184, 250);
+    color: aliceblue;
+    font-weight: 600;
+    margin: 10px;
+    box-shadow: 3px 3px 8px #9c7b88;
+}
