@@ -55,3 +55,13 @@
     margin: 10px;
     box-shadow: 2px 2px 3px #9c7b88;
 }
+
+
+@media only screen and (max-width :400px) {
+    button{
+        padding: 3px 10px;
+    }
+    #display{
+        font: bold 2rem monospace;
+    }
+}
