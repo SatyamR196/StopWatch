@@ -30,6 +30,7 @@
     padding: 5px 15px;
     margin: 10px;
     box-shadow: 2px 2px 3px #9c7b88;
+    transition: ease-in-out 0.025s;
 }
 
 #Stop:hover{
@@ -42,6 +43,7 @@
     padding: 5px 15px;
     margin: 10px;
     box-shadow: 2px 2px 3px #9c7b88;
+    transition: ease-in-out 0.025s;
 }
 
 #Reset:hover{
@@ -54,6 +56,7 @@
     padding: 5px 15px;
     margin: 10px;
     box-shadow: 2px 2px 3px #9c7b88;
+    transition: ease-in-out 0.025s;
 }
 
 
